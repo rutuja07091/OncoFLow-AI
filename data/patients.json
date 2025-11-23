@@ -1,0 +1,38 @@
+[
+  {
+    "patient_id": "P001",
+    "name": "John Carter",
+    "treatment_type": "CHEMO",
+    "ideal_next_date": "2025-11-25",
+    "window_start": "2025-11-24",
+    "window_end": "2025-11-28",
+    "preferences": {
+      "no_mornings": false,
+      "no_fridays": false
+    }
+  },
+  {
+    "patient_id": "P002",
+    "name": "Sarah Miller",
+    "treatment_type": "RADIATION",
+    "ideal_next_date": "2025-11-26",
+    "window_start": "2025-11-25",
+    "window_end": "2025-11-29",
+    "preferences": {
+      "no_mornings": true,
+      "no_fridays": true
+    }
+  },
+  {
+    "patient_id": "P003",
+    "name": "Mrs. Rodriguez",
+    "treatment_type": "CHEMO",
+    "ideal_next_date": "2025-11-27",
+    "window_start": "2025-11-25",
+    "window_end": "2025-11-30",
+    "preferences": {
+      "no_mornings": false,
+      "no_fridays": false
+    }
+  }
+]

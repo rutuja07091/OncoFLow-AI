@@ -1,0 +1,50 @@
+openapi: 3.0.1
+info:
+  title: PubMed E-Utilities API
+  version: 1.0.0
+  description: |
+    Minimal OpenAPI definition for PubMed E-Utilities esearch endpoint.
+    Used for searching PubMed articles by keyword.
+
+servers:
+  - url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+
+paths:
+  /esearch.fcgi:
+    get:
+      summary: Search PubMed for articles
+      description: |
+        Searches the PubMed database and returns a list of PMIDs based on the query.
+      parameters:
+        - in: query
+          name: db
+          required: true
+          schema:
+            type: string
+            default: pubmed
+        - in: query
+          name: term
+          required: true
+          schema:
+            type: string
+          description: Search keywords (e.g., "chemotherapy delay outcomes")
+        - in: query
+          name: retmode
+          required: true
+          schema:
+            type: string
+            default: json
+        - in: query
+          name: api_key
+          required: false
+          schema:
+            type: string
+          description: PubMed API key
+      responses:
+        '200':
+          description: Successful PubMed search
+          content:
+            application/json:
+              schema:
+                type: object
+                description: Raw JSON response from PubMed

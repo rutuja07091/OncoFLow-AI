@@ -1,0 +1,25 @@
+[
+  {
+    "doctor_id": "D001",
+    "doctor_name": "Dr. John",
+    "unavailable_days": [
+      "Monday",
+      "Friday"
+    ],
+    "hard_constraints": {
+      "no_nights": true,
+      "no_weekends": true
+    }
+  },
+  {
+    "doctor_id": "D002",
+    "doctor_name": "Dr. Emily",
+    "unavailable_days": [
+      "Wednesday"
+    ],
+    "hard_constraints": {
+      "no_nights": false,
+      "no_weekends": true
+    }
+  }
+]
