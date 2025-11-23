@@ -156,9 +156,6 @@ Preference-learning (per patient)
 
 Multi-agent orchestration (Orchestrator → Scheduler/Disruption)
 
-DEmo link- https://sumailsyr-
-my.sharepoint.com/personal/nkhadhge_syr_edu/_layouts/15/stream.aspx?id=%2Fpers
-onal%2Fnkhadhge%5Fsyr%5Fedu%2FDocuments%2FRecordings%2FCall%20with%20
-Resham%20Deepak%20Bahira%2D20251123%5F115333%2DMeeting%20Recording%
-2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Evie
-w%2E8a6db741%2D8671%2D4dac%2Db5a7%2Db429931abba8.
+Demo link- 
+"https://drive.google.com/drive/folders/1pRDlFKXvFPkdWDwaD2jiuxqfSswvnCp0?usp=sharing "
+
