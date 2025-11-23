@@ -1,4 +1,4 @@
-OncoFlow: AI-Powered Oncology Scheduling & Disruption Management
+# OncoFlow: AI-Powered Oncology Scheduling & Disruption Management
 
 Built Using IBM watsonx Orchestrate + Multi-Agent Workflows + PubMed Evidence Integration
 
@@ -110,23 +110,15 @@ Escalates complex cases
 
 Tools:
 
-get_appointments_for_window
-
-compute_treatment_risk
-
-find_available_slots
-
-propose_schedule_changes
-
-generate_patient_message
-
-send_notification
-
-update_patient_preferences
-
-escalate_to_human_scheduler
-
-calendar_block_slot
+-get_appointments_for_window
+-compute_treatment_risk
+-find_available_slots
+-propose_schedule_changes
+-generate_patient_message
+-send_notification
+-update_patient_preferences
+-escalate_to_human_scheduler
+-calendar_block_slot
 
 4. External Integrations
 A. Calendar Adapter
